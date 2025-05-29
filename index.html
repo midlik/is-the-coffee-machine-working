@@ -14,8 +14,9 @@
         }
 
         body {
-            width: 60%;
+            width: 80%;
             min-width: 200px;
+            max-width: 550px;
             margin-inline: auto;
             height: 100vh;
             overflow: hidden;
@@ -39,7 +40,19 @@
             text-align: center;
             font-size: 300%;
             font-weight: bold;
+        }
+
+        #image {
+            text-align: center;
+            margin-top: auto;
             margin-bottom: auto;
+            height: 350px;
+            max-height: 50vh;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
         }
 
         hr {
@@ -72,8 +85,13 @@
 <body>
     <div id="question">Is the coffee machine working?</div>
     <div id="answer">No.</div>
-    <div id="sorry">We apologize for the inconvenience. You are still welcome to use hot water.</div>
-    <div id="update">Last updated: 28 May 2025, 8:47:05</div>
+    <div id="image"><img src="./image-not-working.jpeg"></div>
+    <div id="sorry">
+        We are sorry to inform you that the coffee machine has been nonfunctional for 9 days.
+        We apologize for the inconvenience. You are still welcome to use hot water.
+    </div>
+    <div id="update">Last updated: 29 May 2025, 9:41:47</div>
+    <!-- Nonfunctional since Wednesday 21 May 2025 -->
 </body>
 
 </html>
